@@ -1,15 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: #E5E5E5;
+}
+.menu a{
+text-decoration: none;
+font-size: 16px;
+font-weight: 700;
 }
 img {
   width: 350px;
   height: 350px;
 }
-button:hover {
-  background-color: red;
-  color: yellow;
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.btn a{
+  text-decoration: none;
+  width: 90px;
+  background-color: aqua;
+  border: 3px solid black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 20px;
+  font-size: 16px;
+}
+.btn a:hover {
   cursor: pointer;
+  background-color:yellow;
 }
 li a:hover{
   color: red;
+}
+button{
+  background-color: aqua;
+  cursor: pointer;
+}
+button:hover{
+  background-color: blue;
+}
+.servicios{
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 6%;
+text-align: center;
+background-color: #FFFFFF;
+}
+.logo{
+  width: 145px;
+  height: 31px;
+  top: 1668px;
+  left: 215px;
+  font-weight: 700;
+  font-family: font-family 'Raleway', sans-serif;;
+  font-size: 26px;
+  line-height: 30.52px;
+  letter-spacing: 3%;
+  color: #2196F3;
+}
+.soluciones{
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+  left: -4px;
+  background-color: #2F303A;
+  color: white;
+  text-align: center;
+}
+.soluciones-para-su-negocio{
+  width: 696px;
+  height: 120px;
+  top: 280px;
+  left: 448px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 6%;
+  text-align: center;
+}
+.nuestros-servicios{
+  width: 197px;
+  height: 30px;
+  top: 10px;
+  left: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 6%;
+  text-align: center;
+}
+.footer{
+  width: 1200px;
+  height: 120px;
+  background-color: black;
+}
+.redes-footer{
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.redes-footer a{
+  
+}
+.redes-footer a:hover{
+  border-bottom: blue;
 }
