@@ -1,20 +1,31 @@
-*{
-  padding: 0;
-  margin: 0;
-}
+ :root {
+  --color-body: #E5E5E5;
+  --color-botones: rgb(14, 215, 215);
+  --color-web: #2196f3;
+  --color-principal:#FFFFFF;
+  --color-secundario:#2F303A;
+  --font-weigth-7:700 ;
+  --font-weigth-9: 900;
+} 
+
+ font-family: 'Roboto', sans-serif;
+  color: var(--color-principal-texto);
+  font-size: 20px;
+  background-color: var(--color-primario-fondo-pantalla); 
+
 body{
-  font-family: 'Roboto', sans-serif;
-  background-color: #E5E5E5;
+  font-family: 'Roboto' sans-serif;
+  background-color: var(--color-body);
+}
+.menu{
+  background-color: var(--color-principal)
 }
 .menu a{
 text-decoration: none;
-font-size: 16px;
+font: 16px;
 font-weight: 700;
 }
-img {
-  width: 350px;
-  height: 350px;
-}
+
 .btn{
   display: flex;
   justify-content: center;
@@ -22,7 +33,7 @@ img {
 .btn a{
   text-decoration: none;
   width: 90px;
-  background-color: aqua;
+  background-color: var(--color-botones);
   border: 3px solid black;
   text-align: center;
   border-radius: 10px;
@@ -34,23 +45,26 @@ img {
   cursor: pointer;
   background-color:yellow;
 }
+ul {
+  list-style: none;
+}
 li a:hover{
   color: red;
 }
 button{
-  background-color: aqua;
+  background-color: var(--color-botones);
   cursor: pointer;
 }
 button:hover{
   background-color: blue;
 }
 .servicios{
-font-weight: 700;
+font-weight: var( --font-weigth-7);
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 6%;
 text-align: center;
-background-color: #FFFFFF;
+background-color: var(--color-principal);
 }
 .logo{
   width: 145px;
@@ -64,50 +78,67 @@ background-color: #FFFFFF;
   letter-spacing: 3%;
   color: #2196F3;
 }
-.soluciones{
-  width: 1600px;
-  height: 600px;
+.solutions{
   top: 80px;
   left: -4px;
-  background-color: #2F303A;
+  background-color: var(--color-secundario);
   color: white;
   text-align: center;
 }
-.soluciones-para-su-negocio{
-  width: 696px;
-  height: 120px;
+.busines-solutions{
   top: 280px;
   left: 448px;
-  font-weight: 900;
+  font-weight: var(--font-weigth-9);
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 6%;
   text-align: center;
 }
-.nuestros-servicios{
+.our-services{
   width: 197px;
   height: 30px;
   top: 10px;
   left: 32px;
-  font-weight: 700;
+  font-weight: var(--font-weigth-7);
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 6%;
   text-align: center;
 }
+.what-do-we-do{
+  width: 371.15px;
+  height: 46.24px;
+}
+.our-team{
+  width: 263px;
+  height: 42px;
+}
 .footer{
-  width: 1200px;
-  height: 120px;
-  background-color: black;
+  background-color: var(--color-secundario);
+}
+.mexico-city{
+  color: var(--color-principal);
+}
+.footer-mail{
+  color: var(--color-principal);
+}
+.logo-header-link{
+  color: #2196f3;
+}
+.webstudio{
+  width: 145px;
+  height: 31px;
+  color: #FFFFFF;
 }
 .redes-footer{
   font-size: 16px;
   font-weight: 700;
   color: white;
 }
+a{
+  text-decoration: none;
+}
 .redes-footer a{
-  
+  text-decoration: none;
 }
-.redes-footer a:hover{
-  border-bottom: blue;
-}
+
