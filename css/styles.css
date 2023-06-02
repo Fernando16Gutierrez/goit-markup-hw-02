@@ -7,12 +7,6 @@
   --font-weigth-7:700 ;
   --font-weigth-9: 900;
 } 
-
- font-family: 'Roboto', sans-serif;
-  color: var(--color-principal-texto);
-  font-size: 20px;
-  background-color: var(--color-primario-fondo-pantalla); 
-
 body{
   font-family: 'Roboto' sans-serif;
   background-color: var(--color-body);
