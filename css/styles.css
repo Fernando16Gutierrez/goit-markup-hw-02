@@ -1,23 +1,31 @@
  :root {
   --color-body: #E5E5E5;
-  --color-botones: rgb(14, 215, 215);
+  --color-botones: (#F5F4FA);
   --color-web: #2196f3;
   --color-principal:#FFFFFF;
   --color-secundario:#2F303A;
   --font-weigth-7:700 ;
   --font-weigth-9: 900;
+  --color-texto: #212121;
+  --color-rojo: #ef0c0c;
+  --font-size-14p:14px;
+  --font-size-16p:16px;
+  --font-size-26p:26px;
+  --font-size-36p:36px;
+  --font-size-44p:44px;
 } 
 body{
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--color-body);
 }
 .menu{
-  background-color: var(--color-principal)
+  background-color: var(--color-principal);
 }
 .menu a{
 text-decoration: none;
-font: 16px;
-font-weight: 700;
+font: var(--font-size-16p);
+font-weight: var(--font-weigth-7);
+font-size: var(--font-size-14p);
 }
 
 .btn{
@@ -33,11 +41,16 @@ font-weight: 700;
   border-radius: 10px;
   padding: 10px 10px;
   margin: 20px;
-  font-size: 16px;
+  font-size: var(--font-size-16p);
+  color:var(--color-principal) ;
 }
 .btn a:hover {
   cursor: pointer;
-  background-color:yellow;
+  background-color:var(--color-web);
+  color: var(--color-rojo);
+}
+.btn .all {
+  background-color:var(--color-web);
 }
 ul {
   list-style: none;
@@ -47,27 +60,28 @@ li a:hover{
 }
 button{
   background-color: var(--color-botones);
+  font-size: var(--font-size-16p);
   cursor: pointer;
 }
 button:hover{
-  background-color: blue;
+  background-color:var(--color-web);
 }
 .servicios{
 font-weight: var( --font-weigth-7);
-font-size: 16px;
+font-size: var(--font-size-16p);
 line-height: 30px;
 letter-spacing: 6%;
 text-align: center;
 background-color: var(--color-principal);
 }
-.logo{
+.logo-header-link{
   width: 145px;
   height: 31px;
   top: 1668px;
   left: 215px;
   font-weight: 700;
   font-family: font-family 'Raleway', sans-serif;;
-  font-size: 26px;
+  font-size: var(--font-size-26p);
   line-height: 30.52px;
   letter-spacing: 3%;
   color: #2196F3;
@@ -76,63 +90,56 @@ background-color: var(--color-principal);
   top: 80px;
   left: -4px;
   background-color: var(--color-secundario);
-  color: white;
+  color: var(--color-principal);
   text-align: center;
 }
 .busines-solutions{
   top: 280px;
   left: 448px;
   font-weight: var(--font-weigth-9);
-  font-size: 44px;
+  font-size: var(--font-size-44p);
   line-height: 60px;
   letter-spacing: 6%;
   text-align: center;
 }
 .our-services{
-  width: 197px;
-  height: 30px;
   top: 10px;
   left: 32px;
+  background-color: var(--color-web);
   font-weight: var(--font-weigth-7);
-  font-size: 16px;
+  font-size: var(--font-size-16p);
   line-height: 30px;
   letter-spacing: 6%;
   text-align: center;
 }
 .what-do-we-do{
-  width: 371.15px;
-  height: 46.24px;
-}
-.our-team{
-  width: 263px;
-  height: 42px;
+  font-size: var(--font-size36p);
+  color: var(--color-texto);
 }
 .footer{
   background-color: var(--color-secundario);
 }
 .mexico-city{
   color: var(--color-principal);
+  font-size: var(--font-size-14p);
 }
 .footer-mail{
   color: var(--color-principal);
 }
 .logo-header-link{
-  color: #2196f3;
+  color: var(--color-web);
+  font-size: var(--font-size-26p);
 }
-.webstudio{
-  width: 145px;
-  height: 31px;
-  color: #FFFFFF;
-}
-.redes-footer{
-  font-size: 16px;
-  font-weight: 700;
+.footer-mail{
+  font-size: var(--font-size-16p);
+  font-weight: var(--font-weigth-7);
   color: white;
 }
 a{
   text-decoration: none;
 }
-.redes-footer a{
+.footer-mail a{
   text-decoration: none;
+  color: #FFFFFF;
 }
 
